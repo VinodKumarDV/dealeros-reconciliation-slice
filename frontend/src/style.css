@@ -1,0 +1,32 @@
+:root { font-family: system-ui, sans-serif; color: #18212b; background: #f5f7f9; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1180px; margin: 36px auto; padding: 0 20px; }
+h1 { margin: 0; font-size: 1.7rem; }
+h2 { font-size: 1.2rem; }
+p { color: #536171; }
+header, .filters { display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+header { margin-bottom: 24px; }
+header p { margin-bottom: 0; }
+label { display: grid; gap: 6px; font-size: .9rem; }
+input, select, button { font: inherit; padding: 9px 11px; border: 1px solid #c8d0d8; border-radius: 4px; background: white; }
+button { cursor: pointer; color: white; border-color: #1456a0; background: #1456a0; }
+button:disabled { opacity: .6; cursor: wait; }
+button.secondary { color: #25364a; border-color: #c8d0d8; }
+.filters { justify-content: flex-start; margin: 20px 0 14px; }
+.filters span { margin-left: auto; color: #536171; }
+.table-wrap { overflow-x: auto; background: white; border: 1px solid #dfe4e9; }
+table { width: 100%; border-collapse: collapse; text-align: left; }
+th, td { padding: 11px 12px; border-bottom: 1px solid #e8ecf0; vertical-align: top; }
+th { background: #f1f4f7; font-weight: 600; }
+td { min-width: 130px; }
+td:nth-child(2) { min-width: 270px; }
+small, .hint { color: #687889; }
+.ask { margin-top: 30px; max-width: 800px; }
+.ask form { display: flex; gap: 8px; }
+.ask input { flex: 1; }
+.answer { padding: 12px; border-left: 3px solid #1456a0; background: white; color: #18212b; }
+.error { color: #a52121; }
+.login { max-width: 410px; margin-top: 12vh; padding: 24px; background: white; border: 1px solid #dfe4e9; }
+.login form { display: grid; gap: 12px; }
+.login button { margin-top: 4px; }
